@@ -9,7 +9,7 @@ function setup() {
   // Start near the center
   x = width / 2;
   y = height / 2;
-  
+
   // Set initial velocities
   speedX = 5;
   speedY = 4;
@@ -42,7 +42,7 @@ function draw() {
 
   // Draw circle
   noStroke();
-  fill(0, 180, 255);
+  fill(255, 59, 48);
   circle(x, y, radius * 2);
 }
 
